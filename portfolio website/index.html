@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title> Dave Boss</title>
+        <link rel="stylesheet" href="./CSS/portfolio_website.css">
+    </head>
+   
+   
+    <body class="Background">
+
+        <!--NAVBAR-->
+        <div class="Navbar">
+            <a class="active" href="#Home">HOME |</a>
+            <a href="#About"> ABOUT |</a>
+            <a href="#GitHub"> GITHUB |</a>
+            <a href="#Contact"> CONTACT</a>
+        </div>
+
+        <!--breaks add space from navbar-->
+        <br>
+        <br>
+
+        <!--background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./videos/typing_video.mp4" type="video/mp4">
+                <!--display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>>
+
+        <!--video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Dave Boss' Portfolio</h1>
+            <strong>
+                <p class="center">
+                        <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                            <br>No playwright, no stage director, no emperor, however powerful, has ever 
+                            <br>exercised such absolute authority to arrange a stage or field of battle
+                            <br>and to command such unswervingly dutiful actors or troops.
+                        </q>
+                    <br>-Joseph Weizenbaum
+                    <br>
+                    <br>My name is Dave Boss. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br>Thanks for stopping by and enjoy!
+                </p>
+                </div>
+            </strong>
+        </div>
+
+        <!--About Section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./Images/img3.jpg" alt="Coding Picture">
+            </div>
+            <!--Right Column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a software developer who loves to code! Besides my traditional education, my passions of surfing and traveling have also taught me how to be a good human!
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/DaveBoss510" target="_blank">The Tech Academy Github</a></p>
+                </p>
+            </div>
+            <!--Right Column-->
+            <div class="Column_2">
+                <a href="https://github.com/DaveBoss510" target="_blank"><img src="./Images/github.jpg" alt="The Github Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact Section-->
+        <div class="Row" id="Contact">
+                <!--Contact image, left column-->
+                <div class="Column_2 Column_tall">
+                    <img src="./Images/img1.jpg" alt="Desk Picture">
+                </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contacts</h1>
+                <!--Specifies where and how to send the form data; we are leaving it blank-->
+                <form action="https://formspree.io/f/xpzgkpvr" method="POST"> <!--Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute-->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer Section-->
+        <footer>
+            <p>
+                <p class="center">&copy 2023 Dave Boss <a href="https://github.com/DaveBoss510" target="_blank">Dave Boss' GitHub</a></p>
+                <br>
+            </p>
+        </footer>
+
+    </body>
+
+</html>
