@@ -1,12 +1,11 @@
 # Portfolio Website
 
-```Here is a display of my portfolio website.
+Here is a display of my portfolio website made with HTML, CSS, and Javascript.
 
-[portfolio](davidbossdesigns.co/)
+-[My Portfolio](davidbossdesigns.co/)
 
-##### Website was made with HTML and CSS
 
-```
+
 
 
 
