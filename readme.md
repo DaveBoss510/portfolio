@@ -1,11 +1,12 @@
-#HTML AND CSS PROJECTS
+# Portfolio Website
 
-####This is a display of sample websites I made using HTML and CSS.
+Here is a display of my portfolio website made with HTML, CSS, and Javascript.
+
+-[My Portfolio](davidbossdesigns.co/)
 
 
-[My personal portfolio website]
-(davidbossdesigns.co)
 
-one-page surf instructor website
 
-Tattooer portfolio website
+
+
+
